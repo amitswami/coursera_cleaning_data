@@ -2,14 +2,27 @@ Code Book for the cleaned dataset
 ======================
 ### Introduction
 
-This document describes the variable available in the cleaned data sets
+This document describes the variable available in the cleaned data sets. The variable names have special significance and the labels are not being expanded for the sake of brevity. The special characters in the variable names are : 
+
+t : Represents reading of time
+Acc : Represents acceralation
+Jerk : Measures the jerk
+Gyro : Represents the reading from the gyroscope
+Mag : Represents magnitude
+mean : Average or the mean of the reading
+std : Standard deviation
+Freq : Frequency
 
 
 
-|  Attribute   |
-| -------------| 
-| Subject|
-| TrainingLabel|
+
+## Dataset description
+
+
+|  Attribute   |  Description                         |
+| -------------| -------------------------------------|
+| Subject| Id of the subject |
+| TrainingLabel| Label of the training activity
 | tBodyAcc.mean.Y|
 | tGravityAcc.mean.X|
 | tGravityAcc.mean.Z|
@@ -49,7 +62,7 @@ This document describes the variable available in the cleaned data sets
 | fBodyGyro.std.Y |
 | fBodyAccMag.std|
 | fBodyBodyGyroMag.std|
-| Activity |
+| Activity | Text description of the activity |
 | tBodyAcc.mean.X |
 | tBodyAcc.mean.Z|
 | tGravityAcc.mean.Y|
